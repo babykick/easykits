@@ -9,25 +9,23 @@ setup(
       version=version,
       author="babykick",
       description="My own kits bag",
-      url="www.github.com/babykick/mykits",
-      long_description="""\
-""",
-      classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+      url="https://github.com/babykick/easykits",
+      long_description=""" """,
+      classifiers=[
+            # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+      ], 
       keywords='',
-      author='',
-      author_email='',
-      url='',
+      author_email='babykick@163.com',
       license='',
-      packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
-      #packages=['mypackage'],
+      packages=find_packages(exclude=['ez_setup']),
       zip_safe=False,
-      
       include_package_data=True,
       install_requires=[
           # -*- Extra requirements: -*-
       ],
       entry_points="""
                       # -*- Entry points: -*-
-                  """,
-      #scripts = [' '],
-      )
+                   """,
+      scripts = [ # Scripts
+      ],
+)
